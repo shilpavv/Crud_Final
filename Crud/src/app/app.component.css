@@ -1,0 +1,48 @@
+
+.navbar {
+  background-color:#45B39D ;
+  padding: 10px 0;
+}
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin: 0;
+  justify-content: center;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav-list li a:hover {
+  color: black;
+}
+
+.custom-dropdown-button::after {
+  content: none;
+  
+  
+}
+.custom-dropdown-menu {
+  right: 0;
+  left: auto;
+}
+ .dropdown {
+  padding-left: 10px;
+  margin: 0 10px;
+   
+}
+.custom-dropdown-button {
+  background-color: lightblue; 
+
+}
+
+
+

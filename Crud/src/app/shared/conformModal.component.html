@@ -1,0 +1,14 @@
+<div class="modal-header">
+  <h5>{{ actionMessage ? actionMessage : "Confirm Modal" }}</h5>
+</div>
+<div class="modal-body">
+  {{ login ? login : "Are you sure you want to " + actionMessage + " " + employee + " ?" }}
+</div>
+
+
+ <div class="modal-footer">
+    <button *ngIf="login" type="button" class="btn btn-primary" (click)="activeModal.close(true);">OK</button>
+    <button type="button" class="btn btn-danger" (click)="activeModal.close(true)" *ngIf="!login">Yes</button>
+    <button type="button" class="btn btn-secondary" (click)="activeModal.close(false)" *ngIf="!login">No</button>
+ </div>
+ 

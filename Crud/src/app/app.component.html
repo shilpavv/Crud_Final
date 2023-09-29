@@ -1,0 +1,30 @@
+<nav class="navbar"  *ngIf="shouldShowNavbar()">
+  <ul class="nav-list">
+    <li><a routerLink="/">Home</a></li>
+    <li><a routerLink="/employee">Employee</a></li>
+  </ul>
+  <div class="dropdown">
+    
+    <div ngbDropdown placement="bottom-right" class="dropdown">
+      <button id="gfg" ngbDropdownToggle class="custom-dropdown-button">
+        <i class="fas fa-list"></i>
+      </button>
+      <div ngbDropdownMenu="gfg" class="custom-dropdown-menu dropdown-menu">
+        <button ngbDropdownItem class="dropdown-item custom-dropdown-item">
+          <a (click)="logout()">Logout</a>
+        </button>
+      </div>
+    </div>
+  </div>
+</nav>
+<div class="content">
+  <router-outlet></router-outlet>
+  <div
+      *ngIf="isLoading"
+      class="d-flex justify-content-center align-items-center mt-3"
+    >
+      <div class="spinner-border text-primary" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+</div>

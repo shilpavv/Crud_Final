@@ -1,0 +1,84 @@
+{
+  "Users": [
+    {
+      "name": "shilpa",
+      "email": "admin@gmail.com",
+      "mobile": "9846465745",
+      "password": "123456789",
+      "id": 1
+    },
+    {
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "mobile": "9567556644",
+      "password": "12345",
+      "id": 2
+    }
+  ],
+  "employee": [
+    {
+      "active": false,
+      "id": 1
+    },
+    {
+      "active": false,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "shilpa ",
+      "age": 255,
+      "dob": "2023-09-08",
+      "email": "a@gmail.com",
+      "mob": 234,
+      "gender": "Others",
+      "department": "Sales"
+    },
+    {
+      "id": 4,
+      "name": "shilpa ",
+      "age": 67,
+      "dob": "2023-09-16",
+      "email": "admin@gmail.com",
+      "mob": 1234567,
+      "gender": "Female",
+      "department": "HR"
+    },
+    {
+      "firstName": "shilpa",
+      "lastName": "vv",
+      "userName": "chikku",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": 5
+    },
+    {
+      "firstName": "s",
+      "lastName": "s",
+      "userName": "s",
+      "password": "s",
+      "confirmPassword": "s",
+      "id": 6
+    },
+    {
+      "id": 7
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
